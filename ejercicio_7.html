@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Form</title>
+    <link rel="stylesheet" href="styles_7.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+        <h1 class="title">Regístrate en los formularios</h1>
+      <div class="buttons">
+        <button class="google">
+          <picture class="icon-google-container"> 
+            <img src="img_7/google.png" class="icon-google">
+          </picture>
+          <span>Registrarse con Google</span>
+        </button>
+        <button class="twitter">
+          <picture class="icon-twitter-container">
+            <img src="img_7/twitter-logo-vector-png-clipart-1.png" class="icon-twitter">
+          </picture>
+        </button>
+      </div>
+      <div class="separate">
+        <hr />
+        <span>Or</span>
+        <hr />
+      </div>
+      <form action="" method="" class="form">
+        <div class="container-inputs">
+          <label for="name">
+            <span>Name</span>
+            <input type="text" id="name" for="name" />
+          </label>
+          <label for="username">
+            <span>Username</span>
+            <input id="username" for="username" />
+          </label>
+        </div>
+        <label for="email">
+          <span>Email</span>
+          <input type="email" id="email" for="email" />
+        </label>
+        <label for="password">
+          <span>Password</span>
+          <input type="password" id="password" for="password" placeholder="6+ caracteres" />
+        </label>
+        <label for="checkbox" class="checkbox-label">
+          <input id="checkbox" for="checkbox" type="checkbox" />
+          <span>Acepto las condiciones y el aviso legal</span>
+        </label>
+        <button type="submit" class="submit"><span>Crear cuenta</span></button>
+      </form>
+    </div>
+  </body>
+</html>
