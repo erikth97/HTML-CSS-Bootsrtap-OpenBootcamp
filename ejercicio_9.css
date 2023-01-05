@@ -1,0 +1,24 @@
+.btn-modern{
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: grey;
+    color: darkslategrey;
+}
+
+.btn-modern:hover {
+    transition: transform: 0.4s;
+    transform: translateY(-5px);
+    background-color: rgb(104, 40, 165);
+    color: bisque;
+ box-shadow: 4px 4px 10px rgb(73, 24, 119);
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
